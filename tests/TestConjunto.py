@@ -13,3 +13,7 @@ class TestConjunto( unittest.TestCase ):
 
 
 if __name__== "__main__"
+    if len(self.__conjunto) == 1:
+        return (self.__conjunto[0])
+    else:
+        return None
